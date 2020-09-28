@@ -34,7 +34,7 @@ The features of this project are listed as below:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://dipbazz.github.io/building-with-backgrounds-and-gradients/)
 
 
 ## Getting Started
@@ -72,6 +72,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - icons and apple logo used from [iconify](https://iconify.design/)
+- images used in this web pages are downloaded from [here](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
 ## 📝 License
 

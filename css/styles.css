@@ -11,14 +11,15 @@
 body {
   max-width: 1024px;
   margin: 0 auto;
+  height: 100vh;
 }
 
 header {
-  height: 538px;
+  height: 70%;
   background-image: url("../images/your_verse_hero.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 nav {
@@ -126,6 +127,11 @@ nav {
 .gallery {
   display: flex;
   margin-top: 1px;
+  height: 20%;
+}
+
+.gallery * {
+  height: 100%;
 }
 
 .gallery-item {
@@ -135,7 +141,6 @@ nav {
 
 .gallery-item img {
   width: 100%;
-  height: 200px;
   object-fit: cover;
 }
 
@@ -143,6 +148,7 @@ nav {
 
 footer {
   margin: 0 20px;
+  height: 10%;
 }
 
 .top-footer {
