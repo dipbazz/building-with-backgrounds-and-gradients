@@ -4,7 +4,7 @@
 
 ## Definition
 
-We have used several techniques like flexbox, position and gradient to layout our and style our  website. And it's about apple's iphone 5 from apple's old website in archives.
+We have used several techniques like flexbox, position, float, and gradient to layout our and style our website. And it's about apple's iPhone 5 from apple's old website in archives.
 
 ## About the Project
 
@@ -12,10 +12,12 @@ This project is about building apple's old website from the archives while makin
 
 ![screenshot](./images/app_screenshot.png)
 
-The features of this project are listed as below:
+This project is about building apple's old website from the archives while making use of flex, positioning, and gradients.
+The features of this project are listed below:
+
 1. Website has a header containing:
     - Navbar With  apple logo, menu links, input search
-    - - Navbar has a linear gradient
+      - Navbar has a linear gradient
     - Background image
     - banner links
 2. Has a gallery
@@ -23,9 +25,9 @@ The features of this project are listed as below:
     - The gallery items are links
 3. Footer section with two main parts
     - The top footer
-    - - The top footer contains sales links and uselful site links
+      - The top footer contains sales links and useful site links
     - The bottom footer
-    - - The bottom footer contains terms, policy and rights
+      - The bottom footer contains terms, policy, and rights
 
 ## Built With
 
