@@ -1,17 +1,16 @@
 * {
   margin: 0;
-  padding: o;
+  padding: 0;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
   list-style-type: none;
 }
 
-body{
+body {
   max-width: 1024px;
-  margin: 0px auto;
-  border: 1px solid red;
+  margin: 0 auto;
 }
 
 header {
@@ -48,7 +47,6 @@ nav {
   background-color: rgba(41, 41, 41, 0.4);
   cursor: pointer;
 }
-
 
 .nav-links {
   color: #fff;
@@ -95,15 +93,10 @@ nav {
   outline: none;
   width: 200px;
   background-color: #fff;
+  color: #000;
 }
-
-#search:focus ~ label {
-  color: #000 !important;
-}
-/* to fix the search icon above */
 
 .banner-text {
-  border: 1px solid red;
   padding-top: 30px;
 }
 
@@ -123,7 +116,7 @@ nav {
 
 .img-link {
   position: absolute;
-  top: 0px;
+  top: 0;
 }
 
 .text-img-bot:hover .img-link {
@@ -146,11 +139,15 @@ nav {
   object-fit: cover;
 }
 
-
 /* footer styles */
+
+footer {
+  margin: 0 20px;
+}
+
 .top-footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 11px;
   margin-top: 10px;
 }
@@ -184,12 +181,10 @@ nav {
   font-size: 11px;
   margin-top: 10px;
   color: #4a4848;
-  margin-left: 8px;
 }
 
 .bottom-links:first-child {
   border-right: 1px solid #9a9999;
   padding-right: 8px;
   margin-right: 4px;
-
 }
