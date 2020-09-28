@@ -125,7 +125,6 @@ nav {
 }
 
 .gallery {
-  display: flex;
   margin-top: 1px;
   height: 20%;
 }
@@ -135,8 +134,9 @@ nav {
 }
 
 .gallery-item {
-  flex: 1;
-  margin: 0 1px;
+  float: left;
+  padding: 0 1px;
+  width: 25%;
 }
 
 .gallery-item img {
