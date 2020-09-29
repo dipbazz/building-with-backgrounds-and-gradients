@@ -1,0 +1,20 @@
+create a common clas for typography:
+- fs-11, fs-12, fs-13
+
+Project should have;
+1. Header with
+  - Navbar
+  - apple logo
+  - links to different pages.
+  - search input on right side of Header
+
+2. Banner image thats behind the navbar and should contain some text infront of it.
+
+3. product images in below banner images placed inline.
+
+4. Footer with
+  - left footer that contains
+    # Apple's address
+    # copyright information
+    # terms and privacy policy links
+  -Right footer with others useful links and should contain a US flag on righmost part of those links.

@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header {
+  height: 70%;
+  background: url(../images/your_verse_hero.jpg) #d7d7d7;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  background-blend-mode: multiply;
+}
+
+/* object styles */
+.hyperlink {
+  text-decoration: none;
+  color: #1688cc;
+}
+
+.navbar-container {
+  margin: 0 50px;
+  background-image: linear-gradient(rgb(134 134 134) 45%, rgb(93 86 86) 55%, rgb(72 70 70) 60%);
+  border-radius: 5px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  flex: 1;
+  text-align: center;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.nav-items:hover {
+  background-color: rgba(41, 41, 41, 0.4);
+  cursor: pointer;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.apple-logo {
+  font-size: 25px;
+}
+
+.search-form {
+  position: relative;
+  margin: 6px 10px;
+}
+
+#search-label {
+  position: absolute;
+  left: 8px;
+  bottom: -4px;
+}
+
+#search-label .iconify {
+  color: #fff;
+  font-weight: bold;
+}
+
+#search {
+  background: none;
+  border: 1px solid #000;
+  border-radius: 60px;
+  padding: 1px 10px 1px 30px;
+  width: 140px;
+  color: #fff;
+  transition: all 0.2s linear;
+}
+
+#search:focus {
+  outline: none;
+  width: 200px;
+  background-color: #fff;
+  color: #000;
+}
+
+.banner-text {
+  padding: 30px 100px;
+}
+
+.banner-text .text-img {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text-img.-top {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.text-img.-mid {
+  font-size: 30px;
+}
+
+.text-img.-bot {
+  font-size: 25px;
+}
+
+.img-link,
+.img-link span {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.-bot .img-link:hover {
+  text-decoration: underline;
+}
+
+.play-icon {
+  font-size: 32px;
+  position: relative;
+  top: 9px;
+}
+
+.gallery {
+  margin-top: 1px;
+  height: 20%;
+}
+
+.gallery * {
+  height: 100%;
+}
+
+.gallery-item {
+  float: left;
+  padding: 0 1px;
+  width: 25%;
+}
+
+.gallery-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* footer styles */
+
+footer {
+  margin: 0 20px;
+  height: 8%;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.top-left-footer {
+  color: #4a4848;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #9a9999;
+}
+
+.footer-nav-item:last-child {
+  border: none;
+}
+
+.bottom-footer {
+  font-size: 11px;
+  margin-top: 10px;
+  color: #4a4848;
+}
+
+.bottom-links:first-child {
+  border-right: 1px solid #9a9999;
+  padding-right: 8px;
+  margin-right: 4px;
+}
