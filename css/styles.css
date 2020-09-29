@@ -22,12 +22,21 @@ header {
   padding-top: 70px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
+/* object styles */
+.hyperlink {
+  text-decoration: none;
+  color: #1688cc;
+}
+
+.navbar-container {
   margin: 0 50px;
   background-image: linear-gradient(rgb(134 134 134) 45%, rgb(93 86 86) 55%, rgb(72 70 70) 60%);
   border-radius: 5px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-items {
@@ -156,12 +165,6 @@ footer {
   justify-content: space-between;
   font-size: 11px;
   margin-top: 10px;
-}
-
-.top-footer a,
-.bottom-footer a {
-  text-decoration: none;
-  color: #1688cc;
 }
 
 .top-left-footer {
