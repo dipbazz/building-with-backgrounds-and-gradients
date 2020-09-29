@@ -16,10 +16,11 @@ body {
 
 header {
   height: 70%;
-  background-image: url("../images/your_verse_hero.jpg");
+  background: url(../images/your_verse_hero.jpg) #d7d7d7;
   background-position: bottom;
   background-repeat: no-repeat;
   padding-top: 70px;
+  background-blend-mode: multiply;
 }
 
 /* object styles */
@@ -107,30 +108,42 @@ header {
 }
 
 .banner-text {
-  padding-top: 30px;
+  padding: 30px 100px;
 }
 
-.banner-text figure {
+.banner-text .text-img {
   margin-top: 20px;
+  text-align: center;
+}
+
+.text-img.-top {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.text-img.-mid {
+  font-size: 30px;
+}
+
+.text-img.-bot {
+  font-size: 25px;
+}
+
+.img-link,
+.img-link span {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.-bot .img-link:hover {
+  text-decoration: underline;
+}
+
+.play-icon {
+  font-size: 32px;
   position: relative;
-  overflow: hidden;
-}
-
-.text-img-top {
-  height: 90px;
-}
-
-.text-img-bot {
-  height: 35px;
-}
-
-.img-link {
-  position: absolute;
-  top: 0;
-}
-
-.text-img-bot:hover .img-link {
-  top: -32px;
+  top: 9px;
 }
 
 .gallery {
